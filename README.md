@@ -1,77 +1,24 @@
-<!-- unified-readme:start -->
-<div align="center">
+<!-- jr-brand:start -->
+<p align="center">
+  <a href="https://jannikreinhard.com/">
+    <img src="https://raw.githubusercontent.com/JayRHa/.github/main/assets/readme/brand-header.png" alt="Jannik Reinhard — I help enterprises ship secure AI agents" width="100%">
+  </a>
+</p>
+<p align="center">
+  <a href="https://jannikreinhard.com/">Website</a> ·
+  <a href="https://www.linkedin.com/in/jannik-r/">LinkedIn</a> ·
+  <a href="https://x.com/jannik_reinhard">X</a> ·
+  <a href="https://www.youtube.com/@jannikreinhard">YouTube</a>
+</p>
+<!-- jr-brand:end -->
 
 # Blink CLI
 
-**CLI tool for controlling and monitoring Blink security cameras.**
-
-Build. Automate. Share.
-
-[![GitHub stars](https://img.shields.io/github/stars/JayRHa/BlinkCLI?style=for-the-badge&logo=github&color=f4c542)](https://github.com/JayRHa/BlinkCLI/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/JayRHa/BlinkCLI?style=for-the-badge&logo=github&color=4078c0)](https://github.com/JayRHa/BlinkCLI/network/members)
-[![GitHub issues](https://img.shields.io/github/issues/JayRHa/BlinkCLI?style=for-the-badge&logo=github&color=d73a4a)](https://github.com/JayRHa/BlinkCLI/issues)
-[![Contributors](https://img.shields.io/github/contributors/JayRHa/BlinkCLI?style=for-the-badge&logo=github&color=28a745)](https://github.com/JayRHa/BlinkCLI/graphs/contributors)
-
-<h1>Blink CLI</h1>
-  <p><strong>Operate Blink systems and cameras from your terminal with clean JSON for automation.</strong></p>
-  <p>
-    <img src="https://img.shields.io/badge/python-3.11%2B-2d7ff9?style=for-the-badge" alt="Python 3.11+">
-    <img src="https://img.shields.io/badge/interface-CLI-0f172a?style=for-the-badge" alt="CLI">
-    <img src="https://img.shields.io/badge/output-text%20%7C%20json-0ea5e9?style=for-the-badge" alt="Text and JSON output">
-    <img src="https://img.shields.io/badge/automation-ready-16a34a?style=for-the-badge" alt="Automation ready">
-  </p>
-
-<p>
-  <a href="https://jannikreinhard.com/">Blog</a> ·
-  <a href="https://www.linkedin.com/in/jannik-r/">LinkedIn</a> ·
-  <a href="https://x.com/jannik_reinhard">X</a>
-</p>
-
----
-
-`CLI Tool` | `Python` | `Public` | `Maintained`
-
-</div>
-
-## What is this?
-
-Blink CLI wraps a service or workflow in a command-line interface so common tasks can be automated from a terminal, shell script, or scheduled job.
-
-## Project Context
-
-- Primary stack: Python.
-- Typical usage starts with local configuration or credentials, then executes commands against the target service API.
-- This repository is maintained as a practical project and reference asset.
-
-## How It Works
-
-The CLI parses user input, loads configuration, calls the external service, normalizes the response, and prints script-friendly output.
-
-```mermaid
-flowchart LR
-    User[Terminal user] --> Command[CLI command]
-    Command --> Config[Configuration and credentials]
-    Config --> Client[API client]
-    Client --> Service[External service]
-    Service --> Parser[Response parser]
-    Parser --> Output[Terminal output]
-```
-
-## Quick Start
-
-1. Review the project context and workflow below.
-2. Clone the repository:
-
-   ```bash
-   git clone https://github.com/JayRHa/BlinkCLI.git
-   ```
-
-3. Continue with the setup, usage, or workflow sections below.
-
----
-<!-- unified-readme:end -->
+**Type:** Tool or application · **Status:** Archived · Reference
 
 ## Overview
+
+CLI experiment for controlling and monitoring Blink security cameras.
 
 `blink` is a high-signal command line tool for:
 
@@ -81,7 +28,9 @@ flowchart LR
 - clean machine-readable JSON for pipelines
 - fast terminal-first human output
 
-## 60-Second Quickstart
+<a id="60-second-quickstart"></a>
+
+## Quickstart
 
 ```bash
 python3 -m venv .venv
@@ -299,3 +248,9 @@ tests/
 - Prefer environment variables in CI/CD.
 - Treat auth JSON as sensitive secret material.
 - Rotate password and revoke sessions immediately if exposed.
+
+<!-- jr-brand-footer:start -->
+---
+
+[Articles and guides](https://jannikreinhard.com/) · [Repository index](https://github.com/JayRHa/.github/blob/main/REPOSITORIES.md)
+<!-- jr-brand-footer:end -->
